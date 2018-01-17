@@ -4,7 +4,7 @@ int a[50][2];
 
 void preorder(int x)
 {
-	if (x = -1) return;
+	if (x == -1) return;
 	cout << (char)(x + 'A');
 	preorder(a[x][0]);
 	preorder(a[x][1]);
